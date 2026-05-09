@@ -1,161 +1,65 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jesus de Nazaré | Vida, Mensagem e Legado</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; background-color: #fcfcfc; color: #333; }
-        h1, h2, h3 { font-family: 'Playfair Display', serif; }
-        .hero-section { background: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url('https://images.unsplash.com/photo-1544427920-c49ccfb85579?q=80&w=2000') center/cover; padding: 100px 0; }
-        .nav-link-custom { transition: all 0.3s; border-radius: 30px; padding: 8px 20px; }
-        .card-parabola { transition: transform 0.3s; border: none; border-bottom: 4px solid #0d6efd; }
-        .card-parabola:hover { transform: translateY(-10px); }
-        .img-main { max-height: 500px; object-fit: cover; width: 100%; }
-        .quote-box { border-left: 5px solid #0d6efd; font-style: italic; background: #f8f9fa; }
-    </style>
-</head>
+export default function IsabellaBirthdaySite() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-pink-100 via-rose-50 to-white text-gray-800 overflow-hidden">
+      <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,rgba(255,182,193,0.6),transparent_40%)]" />
 
-<body>
-    <header class="bg-white sticky-top shadow-sm">
-        <nav class="navbar navbar-expand-lg navbar-light container">
-            <a class="navbar-brand fw-bold text-primary" href="#">JESUS DE NAZARÉ</a>
-            <div class="ms-auto">
-                <ul class="nav nav-pills gap-2">
-                    <li><a class="nav-link nav-link-custom btn-outline-primary" href="#introducao">História</a></li>
-                    <li><a class="nav-link nav-link-custom btn-outline-primary" href="#detalhes">Legado</a></li>
-                    <li><a class="nav-link nav-link-custom btn-primary text-white" href="#contato">Reflexão</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+      <main className="relative z-10 flex flex-col items-center justify-center px-6 py-16 text-center">
+        <div className="backdrop-blur-sm bg-white/60 border border-pink-200 shadow-2xl rounded-[40px] max-w-3xl w-full p-8 md:p-14 animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold text-pink-500 mb-4">
+            Feliz aniversário 💖
+          </h1>
 
-    <main>
-        <section id="introducao" class="py-5">
-            <div class="container">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-6">
-                        <h1 class="display-4 fw-bold text-dark mb-4">A figura que dividiu a história.</h1>
-                        <p class="lead text-muted">Mais do que uma figura religiosa, Jesus de Nazaré estabeleceu os pilares da ética, compaixão e amor ao próximo que fundamentam a civilização ocidental.</p>
-                        <p>Nascido em tempos de ocupação e incerteza, sua trajetória transformou pescadores em apóstolos e mensagens de paz em um movimento global que atravessa milênios.</p>
-                        <div class="p-4 quote-box mt-4">
-                            "Amai-vos uns aos outros, assim como eu vos amei."
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="jesus.webp" alt="Jesus ensinando" class="img-fluid rounded-4 shadow-lg img-main">
-                    </div>
-                </div>
-            </div>
-        </section>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-10 text-rose-400">
+            Isabella
+          </h2>
 
-        <section id="detalhes" class="py-5 bg-light">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="display-5 fw-bold">Sabedoria e Atitudes</h2>
-                    <p class="text-muted">Ações que marcaram sua passagem e redefiniram o conceito de fé.</p>
-                </div>
+          <div className="space-y-6 text-base md:text-xl leading-relaxed">
+            <p>
+              Hoje é um dia muito especial, porque o mundo ganhou alguém
+              extraordinária como você.
+            </p>
 
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <div class="table-responsive bg-white p-4 rounded-4 shadow-sm">
-                            <table class="table table-hover align-middle">
-                                <thead class="table-light">
-                                    <tr>
-                                        <th class="py-3">Ato Significativo</th>
-                                        <th class="py-3">Contexto</th>
-                                        <th class="py-3">Impacto Humano</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="fw-bold">Acolhimento aos Excluídos</td>
-                                        <td>Margens da sociedade</td>
-                                        <td>Restaurou a dignidade de doentes e marginalizados.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="fw-bold">O Sermão da Montanha</td>
-                                        <td>Galileia</td>
-                                        <td>Uma nova constituição ética baseada na humildade.</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="fw-bold">O Lava-pés</td>
-                                        <td>Jerusalém</td>
-                                        <td>O ensino supremo de que liderar é, antes de tudo, servir.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <p>
+              Com o tempo, percebi que você não é apenas linda por fora,
+              mas também por dentro. Seu coração, sua personalidade, sua
+              alegria e a presença de Deus em você tornam tudo ainda mais
+              especial.
+            </p>
 
-        <section id="parabolas" class="py-5">
-            <div class="container text-center">
-                <h2 class="fw-bold mb-5">Narrativas que Atravessam o Tempo</h2>
-                <div class="row g-4">
-                    <div class="col-md-4">
-                        <div class="card h-100 p-4 card-parabola shadow-sm">
-                            <h3 class="h5 fw-bold text-primary">O Filho Pródigo</h3>
-                            <p class="small text-muted">Uma reflexão sobre a vulnerabilidade humana e a capacidade infinita de recomeçar através do perdão.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card h-100 p-4 card-parabola shadow-sm">
-                            <h3 class="h5 fw-bold text-primary">O Bom Samaritano</h3>
-                            <p class="small text-muted">A definição de que o "próximo" não é quem se parece conosco, mas quem precisa de nossa mão estendida.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card h-100 p-4 card-parabola shadow-sm">
-                            <h3 class="h5 fw-bold text-primary">O Grão de Mostarda</h3>
-                            <p class="small text-muted">Sobre como pequenos gestos de bondade e fé podem crescer e se tornar abrigo para muitos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <p>
+              Cada conversa, cada sorriso seu e cada detalhe em você fizeram
+              nascer em mim um sentimento verdadeiro.
+            </p>
 
-        <section id="contato" class="py-5 bg-dark text-white">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="card p-4 border-0 shadow-lg text-dark">
-                            <h2 class="h4 fw-bold text-center mb-4">Espaço de Partilha</h2>
-                            <p class="text-center text-muted mb-4">Como os ensinamentos de Jesus ressoam em sua vida hoje? Compartilhe conosco.</p>
-                            <form action="#" method="post">
-                                <div class="mb-3">
-                                    <label class="form-label fw-medium">Seu nome</label>
-                                    <input type="text" class="form-control" placeholder="Ex: Maria Silva" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label class="form-label fw-medium">Seu melhor e-mail</label>
-                                    <input type="email" class="form-control" placeholder="exemplo@email.com" required>
-                                </div>
-                                <div class="mb-4">
-                                    <label class="form-label fw-medium">Sua mensagem ou reflexão</label>
-                                    <textarea class="form-control" rows="4" placeholder="O que você gostaria de dizer?" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary w-100 py-3 fw-bold rounded-pill shadow">Enviar Reflexão</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+            <p className="text-pink-500 font-semibold text-xl md:text-2xl">
+              Eu te amo muito ❤️
+            </p>
 
-    <footer class="bg-white py-5 border-top">
-        <div class="container text-center">
-            <p class="text-muted">Aprofunde seu conhecimento na <a href="https://pt.wikipedia.org/wiki/Jesus" class="text-primary text-decoration-none fw-bold" target="_blank">Wikipédia</a>.</p>
-            <hr class="w-25 mx-auto">
-            <p class="mb-0 small text-secondary uppercase">&copy; 2026 — Projeto Educativo Jesus de Nazaré</p>
+            <p>
+              Oro todos os dias para que Deus cuide do seu coração,
+              proteja seus sonhos e te faça cada vez mais feliz.
+            </p>
+
+            <p>
+              Que essa nova fase da sua vida seja cheia de amor, paz,
+              alegria e momentos inesquecíveis.
+            </p>
+          </div>
+
+          <div className="mt-12 flex justify-center gap-4 text-3xl animate-pulse">
+            <span>💖</span>
+            <span>✨</span>
+            <span>🌷</span>
+            <span>🕊️</span>
+            <span>💖</span>
+          </div>
+
+          <p className="mt-12 text-sm md:text-base text-gray-500 italic">
+            “No meio de tantas coisas passageiras,
+            eu oro para que você seja eterna em minha vida.”
+          </p>
         </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+      </main>
+    </div>
+  )
+}
